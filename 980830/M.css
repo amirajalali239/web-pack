@@ -1,0 +1,112 @@
+@font-face {
+    font-family: iran;
+    src: url(font/IRANSansWeb.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(font/BYekan.ttf) format('truetype');
+}
+
+/* .mypara{
+    letter-spacing: 20px;
+    word-spacing: 50px;
+} */
+/* .div1{
+    width: 100px;
+    height: 50px;
+    border: 5px dotted black;
+}
+.div1 p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+
+/* .poem {
+    font-family: myfont;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    border: 5px dotted limegreen;
+    white-space: pre;
+    line-height: 50px;
+} */
+/*li { list-style-type: lower-greek; 
+    border: 1px solid black;
+    list-style-image: url(server.png);
+    list-style-position: outside;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: chocolate;
+    color: white;
+}
+li:hover{
+    background-color: lightseagreen;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    
+} */
+/*p{
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    padding: 100px 50px 100px 100px;
+}*/
+/* li{
+    background-color: #990099;
+    color: #fff;
+    width: 50px;
+    margin-top: 10px;
+    padding: 50px 25px 50px 25px;
+} */
+/* p{
+    background-color: rgb(206, 14, 30);
+    color: #fff;
+    text-align: center;
+    min-width: 20px;
+    max-width: 200px;
+    min-height: 20px;
+    max-height: 100px;
+} */
+/* div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+    opacity: 0.1;
+}
+span{
+    font-size: 25px;
+    
+}
+div:hover{
+    opacity: 1;
+} */
+/* p{
+    float: right;
+} */
+.div1{
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.div2{
+    border: 1px solid red;
+}
+.div3{
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid blue;
+}
+.div4{
+border: 1px solid red;
+clear: left;
+}
