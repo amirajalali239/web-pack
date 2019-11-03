@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            
+            /* flex-direction: row-reverse; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-flow: row wrap; */
+            /*flex-flow kholaseii az flex-direction va flex-wrap mibashd */
+            /* justify-content: space-between; */
+            /*justify-content item haye mara taraz bndi miknd .*/
+            /* align-items: baseline; */
+            /*az baseline dr align-items baraye inke dr yk kht qrr bgirnd estfde miknim*/
+            /* align-content: space-between; */
+            /*align-content: space-between; item hara ba fasele miani az hm ngah midrd*/
+            display: flex;
+            justify-content: center;
+            height: 200px;
+            /* align-items: center; */
+            flex-wrap: wrap;
+            
+            align-content: flex-end;
+            background-color: #f1f1f1;
+        }
+
+        .flex-container>div {
+            background-color: lightseagreen;
+            color: white;
+
+            /* flex: 1; */
+            /*az code foq baraye keshdar krdn estfde miknim .*/
+            width: 100px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div>1</div>
+        <div style="align-self: flex-start;">2</div>
+        <div style="align-self: center;">3</div>
+        
+
+
+
+    </div>
+</body>
+
+</html>

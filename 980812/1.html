@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    div{
+        border: 3px solid green;
+        padding: 5px;
+    }
+    .img{
+        float: right;
+    }
+    
+    .img2{
+        float: right;
+    }
+    .clearfix::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+    </style>
+</head>
+<body dir="rtl">
+    <div>
+    <img class="img" src="Desert.jpg" height="170" width="170">
+    اینجا یک متن قرار گرفته است اینجا یک متن ازمایشی قرار گرفته است  . 
+    <p style="clear:right">
+    </p>
+    <div class="clearfix">
+        <img class="img2" src="Desert.jpg" height="170" width="170">
+
+    </div>
+</div>
+</body>
+</html>
