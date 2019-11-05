@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .container{
+        display: grid;
+        /*grid-gap-row & grid-gap-column baraye fasle byne sotoon ha v str ha estfade mishvd*/
+        /* grid-row-gap: 25px;
+        grid-column-gap: 50px; 
+        grid-gap: 25px 50px;*/
+        grid-template-columns: auto auto auto;
+        background-color: lightseagreen;
+        padding: 10px;
+    }
+    .container>div{
+        
+        background-color: lightskyblue;
+        border: 2px solid black;
+        padding: 2px;
+        font: 30px;
+        text-align: center;
+    }
+    .item1{
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }    
+    /* .item{
+        background-color: lightskyblue;
+        border: 2px solid black;
+        padding: 2px;
+        font: 30px;
+        text-align: center;
+    } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+    </div>
+</body>
+</html>
