@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>7th</title>
+    <style>
+        .tooltip{
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+    .tooltip .tooltiptext{
+        visibility: hidden;
+        width: 120px;
+        background-color: teal;
+        color: snow;
+        border-radius: 5px;
+        padding: 5px 0;
+        text-align: center;
+        margin: 6px;
+
+        position: absolute;
+        z-index: 1;
+    }
+    .tooltip:hover .tooltiptext{
+        visibility: visible;
+    }
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin: -10px;
+        
+        border-width: 5px;
+        border-style: solid;
+        border-color:transparent grey transparent transparent;
+    }
+    </style>
+</head>
+<body>
+    <div class="tooltip">
+
+        Hover over me
+        <span class="tooltiptext">This is a damn fuckin' test</span>
+    </div>
+</body>
+</html>
